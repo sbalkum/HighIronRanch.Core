@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+	<id>HighIronRanch.Core</id>
+	<version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+	<licenseUrl>https://github.com/sbalkum/HighIronRanch.Core/blob/master/LICENSE</licenseUrl>
+	<projectUrl>https://github.com/sbalkum/HighIronRanch.Core</projectUrl>
+	<requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<description>$description$</description>
+	<summary>HighIronRanch.Core defines a few read model interfaces used in other projects.</summary>
+	<copyright>$copyright$</copyright>
+  </metadata>
+  <files>
+<!--
+	<file src="bin\Release\HighIronRanch.Core.dll" target="lib\net45\HighIronRanch.Core.dll" />
+-->
+	<file src="bin\Release\HighIronRanch.Core.pdb" target="lib\net45\HighIronRanch.Core.pdb" />
+  </files>
+</package>

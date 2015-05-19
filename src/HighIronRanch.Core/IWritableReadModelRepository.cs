@@ -17,7 +17,5 @@ namespace HighIronRanch.Core
 
 		Task TruncateAsync<T>() where T : IReadModel;
 		void Truncate<T>() where T : IReadModel;
-
-		void BulkSetProperty<T>(IEnumerable<Guid> ids, string propertyName, object value) where T : IReadModel;
 	}
 }

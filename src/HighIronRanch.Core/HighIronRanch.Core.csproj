@@ -37,6 +37,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Services\ILogger.cs" />
     <Compile Include="IReadModel.cs" />
     <Compile Include="IReadModelRepository.cs" />
     <Compile Include="IWritableReadModelRepository.cs" />

@@ -5,6 +5,8 @@ namespace HighIronRanch.Core.Repositories
 {
     public interface IWritableViewModelRepository : IViewModelRepository
     {
+        Task InsertAsync<T>(T items) where T : IViewModel;
+        void Insert<T>(T items) where T : IViewModel;
         Task InsertAsync<T>(IEnumerable<T> items) where T : IViewModel;
         void Insert<T>(IEnumerable<T> items) where T : IViewModel;
 

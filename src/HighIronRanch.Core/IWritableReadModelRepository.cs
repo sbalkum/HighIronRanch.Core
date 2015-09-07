@@ -4,7 +4,8 @@ using System.Threading.Tasks;
 
 namespace HighIronRanch.Core
 {
-	public interface IWritableReadModelRepository : IReadModelRepository
+    [Obsolete("Use IWritableViewModelRepository instead")]
+    public interface IWritableReadModelRepository : IReadModelRepository
 	{
 		Task InsertAsync<T>(IEnumerable<T> items) where T : IReadModel;
 		void Insert<T>(IEnumerable<T> items) where T : IReadModel;

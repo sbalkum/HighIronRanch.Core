@@ -4,7 +4,8 @@ using System.Threading.Tasks;
 
 namespace HighIronRanch.Core
 {
-	public interface IReadModelRepository
+    [Obsolete("Use IViewModelRepository instead")]
+    public interface IReadModelRepository
 	{
 		Task<IQueryable<T>> GetAsync<T>() where T : IReadModel, new();
 		IQueryable<T> Get<T>() where T : IReadModel, new();

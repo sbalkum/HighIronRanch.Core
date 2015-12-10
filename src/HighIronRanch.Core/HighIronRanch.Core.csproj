@@ -40,6 +40,7 @@
     <Compile Include="Repositories\IViewModel.cs" />
     <Compile Include="Repositories\IViewModelRepository.cs" />
     <Compile Include="Repositories\IWritableViewModelRepository.cs" />
+    <Compile Include="Services\ICollectionNamer.cs" />
     <Compile Include="Services\ILogger.cs" />
     <Compile Include="IReadModel.cs" />
     <Compile Include="IReadModelRepository.cs" />

@@ -37,6 +37,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helpers\AsyncHelpers.cs" />
     <Compile Include="Repositories\IViewModel.cs" />
     <Compile Include="Repositories\IViewModelRepository.cs" />
     <Compile Include="Repositories\IWritableViewModelRepository.cs" />
